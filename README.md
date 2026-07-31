@@ -61,7 +61,7 @@ Thực nghiệm được chia thành các giai đoạn tuần tự như sau:
 Kết quả đầu ra được kiểm tra tự động thông qua việc so khớp chuỗi (substring matching): Nếu câu trả lời sinh ra chứa nội dung của câu trả lời chuẩn (Gold Answer), mẫu đó được tính là hợp lệ (Correct). Kết quả cuối cùng báo cáo độ chính xác tương đối (Relative Accuracy) cho từng mô hình (GLM và QWEN).
 
 #### 5. Cấu trúc mã nguồn thực nghiệm
-Thực nghiệm được gộp trong một notebook chính (`cs2202-project-minirag-glm-edge.ipynb`), chứa các ô mã lệnh (cells) sau:
+Thực nghiệm được gộp trong một notebook chính (`CS2202_MiniRAG_GLM-Edge_QWEN_SQuAD.ipynb`), chứa các ô mã lệnh (cells) sau:
 1. **Thiết lập môi trường:** Clone mã nguồn MiniRAG từ kho lưu trữ GitHub gốc, cài đặt các thư viện cần thiết và thiết lập mã nguồn LLM nhúng cơ bản (patch file).
 2. **Kịch bản Lập chỉ mục (`Step_0_index.py`):** Viết script xử lý quá trình nạp tài liệu.
 3. **Kịch bản Truy vấn (`Step_1_QA.py`):** Viết script xử lý truy vấn QA và lưu log.
